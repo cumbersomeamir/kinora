@@ -25,9 +25,6 @@ export default function Header() {
             <span className="text-2xl lg:text-3xl font-serif font-bold text-[#B11217]">
               Kinora
             </span>
-            <span className="text-sm lg:text-base text-[#6E6E6E] ml-2 hidden sm:inline">
-              Services Info Pvt. Ltd.
-            </span>
           </Link>
 
           {/* Desktop Navigation */}
