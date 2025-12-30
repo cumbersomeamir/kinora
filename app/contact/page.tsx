@@ -18,17 +18,30 @@ export default function ContactPage() {
     setIsSubmitting(true);
     setSubmitStatus('idle');
 
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 1000));
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
 
-    // In a real application, you would send this data to your backend
-    console.log('Form submitted:', formData);
-    
-    setIsSubmitting(false);
-    setSubmitStatus('success');
-    
-    // Reset form
-    setFormData({ name: '', email: '', phone: '', message: '' });
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || 'Failed to submit form');
+      }
+
+      setSubmitStatus('success');
+      // Reset form
+      setFormData({ name: '', email: '', phone: '', message: '' });
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      setSubmitStatus('error');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
