@@ -43,10 +43,10 @@ export default function ContactSection() {
                 <h3 className="text-xl font-serif font-bold text-[#000000]">Email</h3>
               </div>
               <a
-                href="mailto:info@kinora.com"
+                href="mailto:kinoraservicesinfopvtltd@gmai.com"
                 className="text-[#6E6E6E] hover:text-[#B11217] transition-colors"
               >
-                info@kinora.com
+                kinoraservicesinfopvtltd@gmai.com
               </a>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
@@ -67,10 +67,10 @@ export default function ContactSection() {
                 <h3 className="text-xl font-serif font-bold text-[#000000]">Phone</h3>
               </div>
               <a
-                href="tel:+919876543210"
+                href="tel:+918853932809"
                 className="text-[#6E6E6E] hover:text-[#B11217] transition-colors"
               >
-                +91 98765 43210
+                +91 8853932809
               </a>
             </div>
               </div>

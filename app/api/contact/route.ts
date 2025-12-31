@@ -24,7 +24,7 @@ export async function POST(request: NextRequest) {
     }
 
     // Connect to MongoDB
-    const client = await clientPromise;
+    const client = await clientPromise();
     const db = client.db();
     const collection = db.collection('contact');
 

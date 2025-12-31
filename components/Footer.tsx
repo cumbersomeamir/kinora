@@ -13,7 +13,7 @@ export default function Footer() {
               Kinora
             </h3>
             <p className="text-[#6E6E6E] text-sm mb-4">
-              Precision in Data. Excellence in Service.
+              Reliable Roots, Endless Growth.
             </p>
             <p className="text-[#6E6E6E] text-sm">
               Professional data entry and information services company committed to supporting businesses with accurate and efficient data management.
@@ -79,13 +79,13 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Contact</h4>
             <ul className="space-y-2 text-sm text-[#6E6E6E]">
               <li>
-                <a href="mailto:info@kinora.com" className="hover:text-white transition-colors">
-                  info@kinora.com
+                <a href="mailto:kinoraservicesinfopvtltd@gmai.com" className="hover:text-white transition-colors">
+                  kinoraservicesinfopvtltd@gmai.com
                 </a>
               </li>
               <li>
-                <a href="tel:+919876543210" className="hover:text-white transition-colors">
-                  +91 98765 43210
+                <a href="tel:+918853932809" className="hover:text-white transition-colors">
+                  +91 8853932809
                 </a>
               </li>
               <li className="pt-2">
@@ -121,4 +121,5 @@ export default function Footer() {
     </footer>
   );
 }
+
 

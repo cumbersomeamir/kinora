@@ -18,7 +18,7 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   title: {
-    default: "Kinora Services Info Pvt. Ltd. | Precision in Data. Excellence in Service.",
+    default: "Kinora Services Info Pvt. Ltd. | Reliable Roots, Endless Growth.",
     template: "%s | Kinora Services",
   },
   description: "Kinora Services Info Pvt. Ltd. delivers reliable, secure, and high-quality data entry and information processing solutions. Professional data entry services with accuracy, confidentiality, and timely delivery.",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "/",
     siteName: "Kinora Services Info Pvt. Ltd.",
-    title: "Kinora Services Info Pvt. Ltd. | Precision in Data. Excellence in Service.",
+    title: "Kinora Services Info Pvt. Ltd. | Reliable Roots, Endless Growth.",
     description: "Professional data entry and information processing solutions with accuracy, confidentiality, and timely delivery.",
   },
   twitter: {

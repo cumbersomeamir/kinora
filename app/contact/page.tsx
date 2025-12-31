@@ -129,7 +129,7 @@ export default function ContactPage() {
                       value={formData.phone}
                       onChange={handleChange}
                       className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#B11217] focus:border-transparent"
-                      placeholder="+91 98765 43210"
+                      placeholder="+91 8853932809"
                     />
                   </div>
                   <div>
@@ -184,10 +184,10 @@ export default function ContactPage() {
                         Email
                       </h3>
                       <a
-                        href="mailto:info@kinora.com"
+                        href="mailto:kinoraservicesinfopvtltd@gmai.com"
                         className="text-[#6E6E6E] hover:text-[#B11217] transition-colors"
                       >
-                        info@kinora.com
+                        kinoraservicesinfopvtltd@gmai.com
                       </a>
                     </div>
                   </div>
@@ -203,10 +203,10 @@ export default function ContactPage() {
                         Phone
                       </h3>
                       <a
-                        href="tel:+919876543210"
+                        href="tel:+918853932809"
                         className="text-[#6E6E6E] hover:text-[#B11217] transition-colors"
                       >
-                        +91 98765 43210
+                        +91 8853932809
                       </a>
                     </div>
                   </div>

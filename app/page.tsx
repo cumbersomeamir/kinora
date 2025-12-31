@@ -9,7 +9,7 @@ import TestimonialsSection from '@/components/TestimonialsSection';
 import ContactSection from '@/components/ContactSection';
 
 export const metadata: Metadata = {
-  title: 'Kinora Services Info Pvt. Ltd. | Precision in Data. Excellence in Service.',
+  title: 'Kinora Services Info Pvt. Ltd. | Reliable Roots, Endless Growth.',
   description: 'Kinora Services Info Pvt. Ltd. delivers reliable, secure, and high-quality data entry and information processing solutions. Professional data entry services with accuracy, confidentiality, and timely delivery.',
   keywords: [
     'data entry services',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     'professional data entry',
   ],
   openGraph: {
-    title: 'Kinora Services Info Pvt. Ltd. | Precision in Data. Excellence in Service.',
+    title: 'Kinora Services Info Pvt. Ltd. | Reliable Roots, Endless Growth.',
     description: 'Professional data entry and information processing solutions with accuracy, confidentiality, and timely delivery.',
     type: 'website',
   },
