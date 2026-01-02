@@ -13,12 +13,7 @@ jest.mock('next/link', () => {
 describe('Hero Component', () => {
   it('renders the main headline', () => {
     render(<Hero />);
-    expect(screen.getByText('Empowering Your Data Entry Success')).toBeInTheDocument();
-  });
-
-  it('renders the tagline', () => {
-    render(<Hero />);
-    expect(screen.getByText(/Reliable • Accurate • Secure/)).toBeInTheDocument();
+    expect(screen.getByText('Reliable Roots, Endless Growth.')).toBeInTheDocument();
   });
 
   it('renders CTA buttons', () => {

@@ -16,11 +16,8 @@ export default function Hero() {
       <div className="container mx-auto px-4 lg:px-8 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-serif font-bold text-[#000000] mb-6 leading-tight">
-            Empowering Your Data Entry Success
+            Reliable Roots, Endless Growth.
           </h1>
-          <p className="text-lg md:text-xl lg:text-2xl text-[#6E6E6E] mb-8 max-w-2xl mx-auto">
-            Reliable • Accurate • Secure
-          </p>
           <p className="text-base md:text-lg text-[#6E6E6E] mb-10 max-w-2xl mx-auto leading-relaxed">
             Kinora Services Info Pvt. Ltd. delivers reliable, secure, and high-quality data entry and information processing solutions. Our structured workflows and trained professionals ensure accuracy, confidentiality, and timely delivery for every project.
           </p>
